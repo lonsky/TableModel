@@ -39,8 +39,6 @@
 		B6B2368D1A2E5B9200767D11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6B2368E1A2E5B9200767D11 /* TableModelDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableModelDemoTests.swift; sourceTree = "<group>"; };
 		B6B2369A1A2E5C4300767D11 /* TableModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableModel.swift; sourceTree = "<group>"; };
-		B6B2369D1A2E5C9400767D11 /* IMPTableModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMPTableModel.h; sourceTree = "<group>"; };
-		B6B2369E1A2E5C9400767D11 /* IMPTableModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMPTableModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +80,6 @@
 		B6B236751A2E5B9200767D11 /* TableModelDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B6B2369C1A2E5C8500767D11 /* old */,
 				B6B2369A1A2E5C4300767D11 /* TableModel.swift */,
 				B6B236781A2E5B9200767D11 /* AppDelegate.swift */,
 				B6B2367A1A2E5B9200767D11 /* ViewController.swift */,
@@ -117,15 +114,6 @@
 				B6B2368D1A2E5B9200767D11 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B6B2369C1A2E5C8500767D11 /* old */ = {
-			isa = PBXGroup;
-			children = (
-				B6B2369D1A2E5C9400767D11 /* IMPTableModel.h */,
-				B6B2369E1A2E5C9400767D11 /* IMPTableModel.m */,
-			);
-			name = old;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
