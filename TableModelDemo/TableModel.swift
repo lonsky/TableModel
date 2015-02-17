@@ -13,20 +13,7 @@ import Foundation
 //if we don't have sections - number of sections always return 0       (may be changed in future)
 //if we don't have rows in sections or even don't have specified section - number of rows always return 0 (may be changed in future)
 
-private class SectionModel {
-    let id : Int
-    var cells : [Int]
-    
-    init(id : Int, cells : [Int]) {
-        self.id = id
-        self.cells = cells
-    }
-}
-
 class TableModel {
-    let defaultSectionId : Int = -1
-    private lazy var model = [SectionModel]()
-    
     // MARK: Access model
     func numberOfSections() -> Int {
         return model.count
@@ -217,4 +204,17 @@ class TableModel {
         }
         return nil
     }
+    
+    private class SectionModel {
+        let id : Int
+        var cells : [Int]
+        
+        init(id : Int, cells : [Int]) {
+            self.id = id
+            self.cells = cells
+        }
+    }
+    
+    private let defaultSectionId : Int = -1
+    private lazy var model = [SectionModel]()
 }
